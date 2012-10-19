@@ -45,12 +45,11 @@
 </head>
 <body>
 	<ul class="vertical fl" rel="ver1">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Blog</a></li>
-        <li><a href="">Services</a></li>
-        <li><a href="">Portfolio</a></li>
-        <li><a href="">Contacts</a></li>
+        <li class="active"><a href="">Inicio</a></li>
+        <li><a href="">Eventos</a></li>
+        <li><a href="">Registro</a></li>
+        <li><a href="">Ayuda</a></li>
+        <li><a href="">Buscar</a></li>
     </ul>
   <div id="page_container">
   <div id="toppanel">

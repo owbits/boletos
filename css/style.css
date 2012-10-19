@@ -377,7 +377,7 @@ ul.vertical {
     border-bottom-left-radius: 8px; /*New Mozilla versions*/
     /*Añadido por tavo*/
     /* height: 100%; */
-    background: url('img/bg.jpeg');
+    background: url('../images/master/bg.jpeg');
 }
 
 ul.vertical li {
@@ -428,19 +428,19 @@ ul.vertical li a{
 }
 
 ul.vertical li a:hover {
-    /* background: transparent rgba(162,132,132,0.78); */
-    background: url('images/master/bg2.jpeg');
+    background: transparent rgba(162,132,132,0.78);
+    /* background: url('images/master/bg2.jpeg'); */
 }
 
 ul.vertical[rel=ver1] li a{
     /* background: #8c8c8c; */
-    background: url('images/master/bg.jpeg');
+    background: url('../images/master/bg.jpeg');
     
 }
 
 ul.vertical[rel=ver1] li a:hover{
     /* background: transparent none; */
-    background: url('images/master/bg2.jpeg');
+    background: url('../images/master/bg2.jpeg');
 }
 
 ul.vertical[rel=ver1] li.active a{
