@@ -18,6 +18,7 @@
     <script type="text/javascript" src="js/javascript.js"></script>
 	<script type="text/javascript" src="js/jquery.query-2.1.7.js"></script>
 	<script type="text/javascript" src="js/rainbows.js"></script>
+	
 	<link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
 	<!--*****************************************General meta information *****************************************-->
 	<title>..::INICIO::..</title>
@@ -43,6 +44,14 @@
 
 </head>
 <body>
+	<ul class="vertical fl" rel="ver1">
+        <li><a href="">Home</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Contacts</a></li>
+    </ul>
   <div id="page_container">
   <div id="toppanel">
     <div id="panel">

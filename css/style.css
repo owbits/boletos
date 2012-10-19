@@ -280,3 +280,179 @@ body {
 #links_right a:hover{
 	color:#ebc400;
 }
+
+.title {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+}
+
+.fl {
+    float: right;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.menu {
+    height: 80px;
+    border-left: 1px solid rgba(0,0,0,0.3);
+    border-right: 1px solid rgba(255,255,255,0.3);
+    float:left;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    /* text-transform: uppercase; */
+    font-size: 17px;
+    font-weight: bold;
+    /* text-shadow: -1px 0 white, 0 2px white, 2px 0 white, 0 -1px white; */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li {
+    list-style: none;
+    float:left;
+    height: 79px;
+    text-align: center;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+    }
+
+ul li a {
+    display: block;
+    padding: 0 20px;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    border-right: 1px solid rgba(0,0,0,0.1);
+    text-align: center;
+    line-height: 79px;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(168,168,168)), to(rgb(69,69,69)));
+    background : -moz-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-property: background;
+    -moz-transition-duration: 700ms;
+    }
+
+ul li a:hover {
+    background: transparent none;
+}
+
+ul[rel=sam1] li a {
+    background: #606060;
+}
+
+ul[rel=sam1] li a:hover {
+    background: transparent none;
+}
+
+ul li.active a{
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+}
+
+
+/* Css for vertical sample */
+ul.vertical {
+    /* margin: auto 0; */
+    margin-right: 0px;
+    margin-top: 70px; /*quitar*/
+    width: 120px;
+    border: 1px solid #323232;
+    -webkit-border-top-left-radius: 8px;
+    -moz-border-radius-topleft: 8px;
+    border-top-left-radius: 8px; /*New Mozilla versions*/
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px; 
+    border-bottom-left-radius: 8px; /*New Mozilla versions*/
+    /*Añadido por tavo*/
+    /* height: 100%; */
+    background: url('img/bg.jpeg');
+}
+
+ul.vertical li {
+    list-style: none;
+    position: relative;
+    /*
+    background: -webkit-gradient(radial, 50% 100%, 0, 50% 100%, 140, from(rgba(31,169,244,1)), to(rgba(0,28,78, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
+    */	
+}
+
+ul.vertical li span {
+    position: absolute;
+    left: 20px;
+    top: 50px;
+    color: #141414;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.2);
+}
+
+ul.vertical li:first-child a, ul.vertical li:first-child {
+    -webkit-border-top-left-radius: 8px;
+    border-top-left-radius: 8px; /*New Mozilla versions*/
+    -moz-border-radius-topleft: 8px;
+}
+
+ul.vertical li:last-child a, ul.vertical li:last-child {
+    -webkit-border-bottom-left-radius: 8px;
+    -moz-border-radius-bottomleft: 8px;
+    border-bottom-left-radius: 8px; /*New Mozilla versions*/
+    
+}
+
+ul.vertical li a{
+    /*
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(117,117,117,1)), to(rgba(68,68,68,1)));
+    background: -moz-linear-gradient(top, rgba(117,117,117,1), rgba(68,68,68,1));
+    */
+    background: transparent;
+    text-align: left;
+    border-bottom: 1px solid #323232;
+    border-top: 1px solid #868686;
+    border-right: 1px solid #5a5a5a;
+    color: #ffffff;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-property: background;
+    -moz-transition-duration: 700ms;
+}
+
+ul.vertical li a:hover {
+    /* background: transparent rgba(162,132,132,0.78); */
+    background: url('images/master/bg2.jpeg');
+}
+
+ul.vertical[rel=ver1] li a{
+    /* background: #8c8c8c; */
+    background: url('images/master/bg.jpeg');
+    
+}
+
+ul.vertical[rel=ver1] li a:hover{
+    /* background: transparent none; */
+    background: url('images/master/bg2.jpeg');
+}
+
+ul.vertical[rel=ver1] li.active a{
+    
+	background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(rgba(251,251,80,0.72)), to(rgba(255,230,0,0.5)) ); 
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(251,251,80,0.72) 0%, rgba(255,230,0, 0.5) 100%);
+}
+
+/*
+ul.vertical li.active a hover{
+	background: url('img/bg2.jpeg');
+	
+}
+*/
+
