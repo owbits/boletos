@@ -1,0 +1,282 @@
+#page_container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 904px;
+	top: -32px;
+}
+.panel_button {
+	margin-left: 20px;
+	margin-right: auto;
+	position: relative;
+	top: 0px;
+	width: 280px;
+	height: 27px;
+	background: url(../images/ticket/ticketPes.png);
+	z-index: 20;
+	cursor: pointer;
+}
+.panel_button a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+	position: relative;
+	top: 2px;
+	left: 2px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.panel_button a:hover {
+	color: #ebc400;
+}
+#toppanel {
+	margin-left: 100px;
+	margin-right: auto;
+	position: fixed;
+	top: 0px;
+	width: 280px;
+	height: auto;
+	left: 0px;
+	z-index: 25;
+	text-align: center;
+}
+#panel {
+	position: relative;
+	height: 0px;
+	width: 280px;
+	margin-left: 20px;
+	margin-right: auto;
+	z-index: 10;
+	overflow: hidden;
+	text-align: left;
+}
+#panel_contents {
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/ticket/ticketCuerpo.png);
+	height: 350px;
+	width: 280px;
+	position: absolute;
+	z-index: -1;
+}
+#panel h1 {
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	color: white;
+	font-weight: normal;
+	line-height: 35px;
+	left: 275px;
+	position: absolute;
+	top: 10px;
+}
+#panel h2 {
+	margin-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Myriad Pro;
+	color: #ffffff;
+	text-transform: uppercase;
+	position: absolute;
+	margin-left: 65px;
+	margin-top: 10px;
+}
+.border {
+	left: 15px;
+}
+div#login {
+	margin-left: auto;
+	margin-right: auto;
+	width: 240px;
+	height: 150px;
+	position: absolute;
+	top: 10px;
+	background: #46392f;
+	text-align: left;
+	padding-left: 10px;
+}
+div#login p {
+	color: #CCCCCC;
+	font-family: Century Gothic, Georgia, "Times New Roman", Times, serif;
+	line-height: 25px;
+}
+div#login input#password {
+	position: relative;
+	right: -6px;
+}
+div#login input#login_btn {
+	border: 1px #899690 solid;
+	cursor: pointer;
+	position: relative;
+	top: 30px;
+	left: 86px;
+}
+/*--------------------------------------------------------------------------------------------------*/
+/* CSS Reset - Do not edit this line */ 
+html {margin:0;padding:0;border:0;}body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {margin:0;padding:0;border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}article, aside, dialog, figure, footer, header, hgroup, nav, section {display:block;}body {line-height:1.5;background:white;}table {border-collapse:separate;border-spacing:0;}caption, th, td {text-align:left;font-weight:normal;float:none !important;}table, th, td {vertical-align:middle;}blockquote:before, blockquote:after, q:before, q:after {content:'';}blockquote, q {quotes:"" "";}a img {border:none;}:focus {outline:0;}
+
+
+/* General Styles*/
+html {
+	min-height: 100%;
+}
+body {
+	height: 100%;
+	position: relative;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #888;
+	font-size: 13px;
+	line-height: 20px;
+	min-width: 998px;
+	border-top:3px solid #919191;
+	background:url(../images/ticket/BG.jpg) repeat;
+}
+#username_input {
+	margin-left:20px;
+	position:absolute;
+	width:300px;
+	height:50px;
+	margin-top:40px;
+}
+
+#username_inputleft {
+	float:left;
+	background:url(../images/ticket/input_left.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#username_inputmiddle {
+	float:left;
+	background:url(../images/ticket/input_middle.png) repeat-x;
+	width:215px;
+	height:50px;
+}
+
+#username_inputright {
+	float:left;
+	background:url(../images/ticket/input_right.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#url{
+	display:block;
+	width:276px;
+	height:45px;
+	background:transparent;
+	border:0;
+	color:#bdbdbd;
+	font-family:helvetica, sans-serif;
+	font-size:14px;
+	padding-left:20px;
+}
+
+#url_user {
+	position:absolute;
+	display:block;
+	margin-top:-32px;
+	float:left;
+	padding-right:10px;
+}
+
+#password_input {
+	margin-left:20px;
+	position:absolute;
+	width:300px;
+	height:50px;
+	margin-top:100px;
+}
+
+#password_inputleft {
+	float:left;
+	background:url(../images/ticket/input_left.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#password_inputmiddle {
+	float:left;
+	background:url(../images/ticket/input_middle.png) repeat-x;
+	width:215px;
+	height:50px;
+}
+
+#password_inputright {
+	float:left;
+	background:url(../images/ticket/input_right.png) no-repeat;
+	width:12px;
+	height:50px;
+}
+
+#url_password {
+	display:block;
+	position:absolute;
+	margin-top:-32px;
+	float:left;
+	margin-left:2px;
+}
+
+#submit{
+	float:left;
+	position:relative;
+	padding:0;
+	margin-top:160px;
+	margin-left:20px;
+	width:240px;
+	height:40px;
+	border:0;
+}
+
+#submit1 {
+	position:absolute;
+	z-index: 10;
+	border:0;
+}
+
+#submit2 {
+	position:absolute;
+	margin-top:0px;
+	border:0;
+}
+
+#links_left{
+	float:left;
+	position:relative;
+	padding-top:5px;
+	margin-left:20px;
+}
+
+#links_left a{
+	color:#ffffff;
+	font-size:10px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#links_left a:hover{
+	color:#ebc400;
+}
+
+#links_right{
+	float:right;
+	position:relative;
+	padding-top:5px;
+	margin-right:20px;
+}
+
+#links_right a{
+	color:#ffffff;
+	font-size:10px;
+	text-decoration:none;
+	transition: color 0.5s linear;
+	-moz-transition: color 0.5s linear;
+	-webkit-transition: color 0.5s linear;
+	-o-transition: color 0.5s linear;
+}
+
+#links_right a:hover{
+	color:#ebc400;
+}
