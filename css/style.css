@@ -243,7 +243,7 @@ body {
 	float:left;
 	position:relative;
 	padding-top:5px;
-	margin-left:20px;
+	margin-left:15px;
 }
 
 #links_left a{
@@ -264,7 +264,7 @@ body {
 	float:right;
 	position:relative;
 	padding-top:5px;
-	margin-right:20px;
+	margin-right:15px;
 }
 
 #links_right a{
