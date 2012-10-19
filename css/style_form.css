@@ -146,5 +146,179 @@ input[type="submit"]:focus, input[type="button"]:focus { outline : none; }
 }
 
 
+/*===========================================================*/
+
+#container label {
+	display: inline;
+}
+
+/*
+#container label.lblEmpty {
+	display: inline;
+	width: 0.5px;
+}
+*/
+
+#container input.regular-checkbox {
+	display: none;
+}
+
+#container input.regular-checkbox + label {
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+#container input.regular-checkbox + label:active, .regular-checkbox:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+#container input.regular-checkbox:checked + label {
+	background-color: #e9ecee;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1);
+	color: #99a1a7;
+}
+
+#container input.regular-checkbox:checked + label:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}
+
+
+#container .tag {
+	font-family: Arial, sans-serif;
+	width: 200px;
+	position: relative;
+	top: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: block;
+	float: left;
+}
+
+#container .radio-1 {
+	width: 193px;
+}
+
+.button-holder {
+	float: left;
+}
+
+/* RADIO */
+
+#container input.regular-radio {
+	display: none;
+}
+
+#container input.regular-radio + label {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #cacece;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+	padding: 9px;
+	border-radius: 50px;
+	display: inline-block;
+	position: relative;
+}
+
+#container input.regular-radio:checked + label:after {
+	content: ' ';
+	width: 12px;
+	height: 12px;
+	border-radius: 50px;
+	position: absolute;
+	top: 3px;
+	background: #99a1a7;
+	box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+	text-shadow: 0px;
+	left: 3px;
+	font-size: 32px;
+}
+
+#container input.regular-radio:checked + label {
+	background-color: #e9ecee;
+	color: #99a1a7;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+#container input.regular-radio + label:active, #container input.regular-radio:checked + label:active {
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+
+
+
+/*
+#container label.radioBtn{
+	
+	margin-left: 10px;
+}
+
+.button-holder {
+    float: left;
+}
+
+#container input.regular-radio{
+	display: none;
+	
+}
+
+#container input.regular-radio {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: 1px solid #cbcfcf;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05); 
+    padding: 9px;
+    border-radius: 50px;
+    display: inline-block;
+    position: relative;
+    width: 12px;
+    height: 12px;
+}
+ 
+#container input.regular-radio:checked:after {
+    content: ' ';
+    width: 12px;
+    height: 12px;
+    border-radius: 50px;
+    position: absolute;
+    top: 3px;
+    background: #99a1a7;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.3);
+    text-shadow: 0px;
+    left: 3px;
+    font-size: 32px;
+}*/
+ 
+#container input.regular-radio:checked {
+    background-color: #e9ecee;
+    color: #99a1a7;
+    border: 1px solid #adb8c0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05), inset 15px 10px -12px rgba(255,255,255,0.1), inset 0px 0px 10px rgba(0,0,0,0.1);
+}
+ 
+#container input.regular-radio:active, #container input.regular-radio:checked:active {
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px 1px 3px rgba(0,0,0,0.1);
+}
+
+#container input.regular-radio:hover{
+	border: 1px solid #a80329;
+    color: #a90329;	
+}
+*/
+
+/*===========================================================*/
+
+
 
 
