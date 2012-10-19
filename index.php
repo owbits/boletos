@@ -113,7 +113,7 @@
                     <!-- -------------------------------datepicker---------------------------------------- -->
                     <p>
 						<input class="inputDate" id="inputDate" value="<?php echo date("d/m/Y"); ?>" />
-						<label id="closeOnSelect"><input type="checkbox" /> Close on selection</label>
+						<!-- <label id="closeOnSelect"><input type="checkbox" /> Close on selection</label> -->
 					</p>
 					<!-- -------------------------------datepicker---------------------------------------- -->
                     
