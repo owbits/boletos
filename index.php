@@ -28,7 +28,7 @@
 	<meta name="robots" content="index, follow" />
 	<meta charset="utf-8" />
 	<!-- ****************************************General meta information *****************************************-->
-
+	<link type="text/css" rel="stylesheet" href="css/style_breadcrumb.css" media="screen" />
 <script>
 	$(document).ready(function(){
  
@@ -44,6 +44,8 @@
 
 </head>
 <body>
+	
+	<!-*****************************NAV*******************************>
 	<ul class="vertical fl" rel="ver1">
         <li class="active"><a href="">Inicio</a></li>
         <li><a href="">Eventos</a></li>
@@ -51,6 +53,18 @@
         <li><a href="">Ayuda</a></li>
         <li><a href="">Buscar</a></li>
     </ul>
+    <!-*****************************/NAV*******************************> 
+    
+    <!-*****************************BREADCRUMB*******************************>
+    <ul id="breadcrumbs-one">
+	    <li><a href="">Primero</a></li>
+	    <li><a href="">Segundo</a></li>
+	    <li><a href="">Tercero</a></li>
+	    <li><a href="">Cuarto</a></li>
+	    <li><a href="" class="current">Quinto</a></li>
+    </ul>
+    <!-*****************************/BREADCRUMB******************************>
+    
   <div id="page_container">
   <div id="toppanel">
     <div id="panel">
